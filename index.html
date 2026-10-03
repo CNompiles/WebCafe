@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Purple Bean Cafe | Take Away & Delivery</title>
+  <meta name="description" content="Specialty καφές, αλμυρά και γλυκά για take away και delivery στην Αθήνα.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="nav" id="nav">
+    <a href="#top" class="brand">Purple Bean</a>
+    <button class="burger" id="burger" aria-label="Άνοιγμα μενού" aria-expanded="false" aria-controls="links">
+      <span></span><span></span>
+    </button>
+    <nav class="links" id="links">
+      <a href="#menu">Μενού</a>
+      <a href="#visit">Επισκεφθείτε μας</a>
+      <a href="#visit" class="pill">Ωράριο</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="hero-kicker">Take away & delivery · Ηράκλειο-Κρήτη</p>
+      <h1><span>Ο καφές σας,</span> <span>έτοιμος πριν</span> <span>τον χρειαστείτε.</span></h1>
+      <p class="hero-sub">Φρεσκοαλεσμένο specialty blend, αλμυρά από τον φούρνο και γλυκά της ημέρας.</p>
+      <a href="#menu" class="btn">Δείτε το μενού</a>
+    </section>
+
+    <section class="glass" id="menu">
+      <div class="wrap">
+        <div class="sec-head">
+          <h2>Το μενού μας</h2>
+          <div class="chips" id="chips" role="tablist" aria-label="Κατηγορίες">
+            <button class="chip active" data-filter="all">Όλα</button>
+            <button class="chip" data-filter="coffee">Καφέδες</button>
+            <button class="chip" data-filter="beverages">Ροφήματα</button>
+            <button class="chip" data-filter="snacks">Αλμυρά</button>
+            <button class="chip" data-filter="sweets">Γλυκά</button>
+          </div>
+        </div>
+
